@@ -1,4 +1,4 @@
-from app.transcription.transcription_service import TranscriptionService
+from app import TranscriptionService
 
 
 def main():
