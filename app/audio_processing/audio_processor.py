@@ -7,7 +7,7 @@ class AudioProcessor:
         self.audio_path = audio_path
 
     def validate_audio(self) -> bool:
-        formats_allowed = (".mp3",)
+        formats_allowed = (".mp3", "m4a", "webm", "mp4", "mpga", "wav", "mpeg")
         if not os.path.exists(self.audio_path):
             return False
 
