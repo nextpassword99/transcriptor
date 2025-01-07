@@ -1,6 +1,6 @@
-from app.audio_processor import AudioProcessor
-from app.file_manager import FileManager
-from app.whisper_transcriber import WhisperTranscriber
+from app.audio_processing.audio_processor import AudioProcessor
+from app.audio_processing.file_manager import FileManager
+from app.transcription.whisper_transcriber import WhisperTranscriber
 
 
 class TranscriptionService:
